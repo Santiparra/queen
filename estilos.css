@@ -1,0 +1,39 @@
+:root {
+    --main-font: Verdana;
+    --color-subencabezado: #525252;
+    --color-secundario: #a3a3a3;
+}
+
+* {
+    font-family: var(--main-font);
+    margin: 0;
+    padding: 8px;
+}
+
+h3 {
+    color: var(--color-secundario);
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+thead, tfoot {
+    text-align: center;
+}
+
+tfoot {
+    background-color: var(--color-secundario);
+}
+
+th {
+    background-color: var(--color-subencabezado);
+    color: white;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+}
